@@ -1,5 +1,5 @@
 import pytest
-from .Checkout import Checkout
+from testing_intro.Checkout import Checkout
 
 
 @pytest.fixture()

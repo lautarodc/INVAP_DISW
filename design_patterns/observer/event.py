@@ -1,6 +1,13 @@
 subscribers = dict()
 
 
+#
+# suscribers = {
+#     "evento": "funcion"
+#     "registrar_usuario": ["slack", "email"],
+#     "perder_constrasena": "slack"
+# }
+
 def subscribe(event_type: str, fn):
     if not event_type in subscribers:
         subscribers[event_type] = []

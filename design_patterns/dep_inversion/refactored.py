@@ -32,6 +32,8 @@ class Fan(Switchable):
 
 # We removed the dependency between the light bulb and the electric switch
 # using dependency inversion
+
+# Type hint--> arg1: str, arg2: int = 3, Tuple, List, Any, obj
 class ElectricPowerSwitch:
 
     def __init__(self, c: Switchable):
